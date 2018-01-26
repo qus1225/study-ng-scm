@@ -5,6 +5,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainDashbaordComponent } from './main-dashbaord/main-dashbaord.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import {RouterModule} from '@angular/router';
 
 const CORE_COMPONENTS = [
   NavbarComponent,
@@ -16,7 +17,8 @@ const CORE_COMPONENTS = [
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   declarations: CORE_COMPONENTS,
   exports: CORE_COMPONENTS

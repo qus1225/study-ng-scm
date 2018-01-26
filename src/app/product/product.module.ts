@@ -8,7 +8,6 @@ import { ProductManagementComponent } from './product-management/product-managem
   ],
   declarations: [ProductManagementComponent],
   exports: [
-    ProductManagementComponent
   ]
 })
 export class ProductModule { }

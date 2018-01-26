@@ -7,6 +7,7 @@ import { ScmMainModule } from './scm-main/scm-main.module';
 
 import { AppComponent } from './app.component';
 import {FormsModule} from '@angular/forms';
+import {AppRoutingModule} from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import {FormsModule} from '@angular/forms';
     BrowserModule,
     FormsModule,
     // App Modules
+    AppRoutingModule,
     ScmMainModule,
     ProductModule,
     CategoryModule
